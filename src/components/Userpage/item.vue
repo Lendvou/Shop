@@ -9,7 +9,7 @@
 				<button 
 						class="btn btn-warning"
 						@click="addToCart(item)">Buy</button>
-			</div>
+			</div> 
 		</div>
 	</div>
 </template>
