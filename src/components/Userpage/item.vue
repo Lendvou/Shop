@@ -5,13 +5,10 @@
 				<img :src="item.image" alt="galosha-winter" width="250" height="200">
 			</div>
 			<div class="panel-heading">
-				<p style="padding: 3px">
-					<router-link to="/" class="align-text">{{item.name}} <span style="color: gray">[Price: {{item.price}}$]</span></router-link>
-					<button 
-							class="btn btn-warning align-button" 
-							style="float: right"
-							@click="addToCart(item)">Buy</button>
-				</p>
+				<router-link to="/">{{item.name}} <span style="color: green">[Price: {{item.price}}$]</span></router-link>
+				<button 
+						class="btn btn-warning"
+						@click="addToCart(item)">Buy</button>
 			</div>
 		</div>
 	</div>
